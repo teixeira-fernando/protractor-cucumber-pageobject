@@ -1,10 +1,12 @@
-var AngularHomepage = function() {
+var AngularFillNamepage = function() {
+
   var nameInput = element(by.model('yourName'));
   var greeting = element(by.binding('yourName'));
 
   this.get = async function() {
     await browser.get('http://www.angularjs.org');
   };
+
 
   this.setName = async function(name) {
     await nameInput.sendKeys(name);
@@ -19,4 +21,4 @@ var AngularHomepage = function() {
     return greeting;
   };
 };
-module.exports = new AngularHomepage();
+module.exports = new AngularFillNamepage();
