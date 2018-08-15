@@ -55,7 +55,7 @@ exports.config = {
   // cucumber command line options
   cucumberOpts: {
     require: [
-      './tests/e2e/specs/*.js', 
+      './tests/e2e/specs/*.js' 
     ],  // require step definition files before executing features
     tags: [],                      // <string[]> (expression) only execute the features or scenarios with tags matching the expression
     strict: true,                  // <boolean> fail if there are any undefined or pending steps
