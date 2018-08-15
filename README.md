@@ -24,7 +24,7 @@ I used the technologies below:
 
 ### Running tests
 
-- Don't forget that to start the server: ```webdriver-manager start```
+- Don't forget to start the server: ```webdriver-manager start```
 
 - Run ```protractor protractor.conf.js```
  
