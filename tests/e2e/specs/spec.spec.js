@@ -8,7 +8,7 @@ var {setDefaultTimeout} = require('cucumber');
 setDefaultTimeout(60 * 1200);
 
 Before(function(){
-    specPage.init();
+    //specPage = new AngularHomepage();
 })
 
 Given('The user go to {string}', function (string) {

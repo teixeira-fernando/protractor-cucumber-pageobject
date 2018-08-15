@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tuliobluz/protractor-cucumber-pageobject.git"
+    "url": "git+https://github.com/teixeira-fernando/protractor-cucumber-pageobject.git"
   },
   "keywords": [
     "protractor",
@@ -18,9 +18,9 @@
   "author": "Tulio Bandeira Luz",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/tuliobluz/protractor-cucumber-pageobject/issues"
+    "url": "https://github.com/teixeira-fernando/protractor-cucumber-pageobject/issues"
   },
-  "homepage": "https://github.com/tuliobluz/protractor-cucumber-pageobject#readme",
+  "homepage": "https://github.com/teixeira-fernando/protractor-cucumber-pageobject#readme",
   "dependencies": {
     "chai": "^4.1.2",
     "chai-as-promised": "^7.1.1",
